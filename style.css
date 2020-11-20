@@ -1,0 +1,241 @@
+#contenedor-padre{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+}
+
+
+.Contenedor-lateral {
+    width: 100%;
+    height: 100%;
+    background-color: #06d6b5b5;
+    float: left;
+}
+#Foto {
+    width: 70%;
+    height: 70%;
+    border-radius: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#container-foto {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top:20px ;
+}
+#tarjetaDeIdentidad{
+    font-size: 25px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    color: beige;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+    
+
+#contacto {
+    float: left;
+    text-align: center;
+    color: beige;
+    padding-left: 40px;
+    
+}
+#contact-word{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+#icono-telefono{
+   text-align: right;
+}
+#telefono{
+    font-size: 5px;
+    color: black;
+    text-align: left;
+    font-family: 'Catamaran', sans-serif;
+    margin-top: 4px;
+
+}
+#icono-ubicacion{
+     text-align: right;
+}
+#direccion{
+    font-size: 5px;
+    color: black;
+    text-align: left;
+    font-family: 'Catamaran', sans-serif;
+    margin-top: 4px;
+    width: 300px;
+
+}
+#icono-mail{
+    text-align: right;
+}
+#e-mail{
+    font-size: 5px;
+    color: black;
+    text-align: left;
+    font-family: 'Catamaran', sans-serif;
+    margin-top: 4px;
+    width: 300px;
+
+}
+#hobbies{
+    float: left;
+    text-align: center;
+    color: beige;
+    padding-left: 40px;
+    
+}
+#hobbies-word{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+
+}
+.icono-libro{
+text-align: right;
+
+}
+.icono-guitarra{
+    text-align: center;
+}
+.icono-tv{
+    text-align: left;
+}
+.icono-contrabajo{
+    text-align: right;
+    
+
+}
+.icono-deporte{
+    text-align: center;
+}
+.icono-musica{
+    text-align: left;
+}
+.iconos-hobbies{
+    width: 40px;
+}
+
+
+
+.contenedor-central{
+    float: right;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/textura-de-la-tela-fondo-gris-claro-del-color-mezcla-126309031.jpg);
+}
+
+#nombre{
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+.linea-divisora{
+    background-color: #96008d;
+    height: 4px;
+    margin-right: 0%;
+    width: 100%;
+    float: right;
+    margin-top: 10px;
+}
+#miDescripcion{
+    padding: 30px;
+    text-align: center;
+}
+#miEducacion{
+    font-family:'Catamaran', sans-serif; 
+    font-size: 30px;
+    padding-left: 25px;
+    margin-top: 25px;
+    color: #2d353c;
+    font-weight: bold;
+}
+#Bachillerato-word{
+    line-height: 50px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: rgb(17, 11, 11);
+    font-size: 30px;
+    display: flexbox;
+  
+}
+#institucion-word{
+    font-weight: lighter;
+   text-align: left;
+   display: flex;
+
+}
+
+#Cursos{
+    color: #2d353c;
+    font-size: 24px;
+    font-family:'Catamaran', sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+}
+#skills{
+   
+    color: beige;
+    padding-left: 28px;
+    
+}
+#skills-word{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Catamaran', sans-serif;
+}
+.iconos-programacion{
+    width: 80px;
+    
+}
+.col{
+    text-align: center;
+}
+#icono-css{
+    text-align: left;
+}
+.idiomas{
+    font-family:'Catamaran', sans-serif; 
+    font-size: 30px;
+    padding-left: 25px;
+    margin-top: 45px;
+    color: #2d353c;
+    font-weight: bold;
+}
+#idiomas-word{
+    padding-left: 5px;
+}
+#ingles{
+    font-family:'Catamaran', sans-serif; 
+    font-size: 20px;
+    padding-left: 45px;
+    color: #2d353c;
+    font-weight: bold;
+}
+.progress{
+    margin-left: 45px;
+    margin-right: 45px;
+    color: crimson;
+}
+.redes-icons{
+    width: 70px;
+   
+}
+#redes{
+    font-family:'Catamaran', sans-serif; 
+    font-size: 30px;
+    padding-left: 25px;
+    color: #2d353c;
+    font-weight: bold;
+    margin-top: 25px;
+}
